@@ -4,6 +4,56 @@ body {
     outline: solid orange;
 }
 
+.hidden {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+#menuknap {
+    position: absolute;
+    display: inline-block;
+    top: 2vw;
+    left: 90vw;
+    font-size: 30px;
+    font-family: lalezar;
+    color: #AC93CF;
+}
+
+#menu {
+    position: absolute;
+    transform-origin: top right;
+    z-index: 2;
+    text-align: right;
+    transition: transform 0.3s;
+    list-style: none;
+    top: 13vw;
+    left: 70vw;
+}
+li {
+    padding-bottom: 3vw;
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+    font-family: lalezar;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover:hover {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+
 .forsidetekst {
     width: 90%;
     margin-left: 6vw;
@@ -14,13 +64,24 @@ body {
     margin-top: 10vw;
 }
 
-h1{
+h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    text-align: center;}
+    text-align: center;
+    margin-top: 10vw;
+}
 
-
-
+a.portfolio {
+    color: white;
+    background-color: orange;
+    text-align: center;
+    margin-left: 28vw;
+    font-size: 18px;
+    padding: 2vw 2vw;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
 
 
 
@@ -35,17 +96,18 @@ h1{
 
 
 @media (min-width:600px) {
-.forsidebillede {
-    width: 50%;
-    margin-top: 0vw;
-    margin-left: 25vw;
-    margin-bottom: 0vw;
-}
+    .forsidebillede {
+        width: 50%;
+        margin-top: 0vw;
+        margin-left: 25vw;
+        margin-bottom: 0vw;
+    }
 
-.forsidetekst {
+    .forsidetekst {
         width: 75%;
-margin-top: -3vw;
-margin-left: 12vw;
-display: flex;}
+        margin-top: -3vw;
+        margin-left: 12vw;
+        display: flex;
+    }
 
 }
