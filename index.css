@@ -1,0 +1,51 @@
+body {
+    margin: 2vw;
+    background-color: rgb(240, 231, 240);
+    outline: solid orange;
+}
+
+.forsidetekst {
+    width: 90%;
+    margin-left: 6vw;
+}
+
+.forsidebillede {
+    width: 100%;
+    margin-top: 10vw;
+}
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    text-align: center;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:600px) {
+.forsidebillede {
+    width: 50%;
+    margin-top: 0vw;
+    margin-left: 25vw;
+    margin-bottom: 0vw;
+}
+
+.forsidetekst {
+        width: 75%;
+margin-top: -3vw;
+margin-left: 12vw;
+display: flex;}
+
+}
