@@ -3,6 +3,7 @@ body {
     background-color: rgb(240, 231, 240);
     outline: solid orange;
     overflow-x: hidden;
+    margin-top: -1vw;
 }
 
 .hidden {
@@ -27,7 +28,7 @@ body {
     text-align: right;
     transition: transform 0.3s;
     list-style: none;
-    top: 13vw;
+    top: 10vw;
     left: 70vw;
 }
 
@@ -153,7 +154,7 @@ a.portfolio:hover {
         text-align: center;
         padding-left: 60px;
         padding-bottom: 20px;
-        margin-top: 1vw;
+        margin-top: 3vw;
     }
 
     a {
@@ -176,14 +177,6 @@ a.portfolio:hover {
     a:active {
         color: white;
     }
-
-    nav a img {
-        position: absolute;
-        width: 10%;
-        padding-left: 0;
-    }
-
-
 
 
     .forsidebillede {
