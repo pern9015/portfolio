@@ -3,7 +3,7 @@ body {
     background-color: rgb(240, 231, 240);
     outline: solid orange;
     overflow-x: hidden;
-    margin-top: -1vw;
+    margin-top: 2vw;
 }
 
 .hidden {
@@ -85,6 +85,11 @@ img.pilot {
 
 
 @media (min-width:1280px) {
+    body {
+        margin: 2vw;
+        margin-top: -1vw;
+    }
+
     #menuknap {
         display: none;
     }
