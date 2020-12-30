@@ -56,6 +56,13 @@ a:active {
     color: black;
 }
 
+a img {
+    position: absolute;
+    width: 12.5%;
+    z-index: 2;
+    top: 4vw;
+    left: 2vw;
+}
 
 .forsidetekst {
     width: 90%;
