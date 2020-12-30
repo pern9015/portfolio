@@ -57,7 +57,7 @@ a:active {
 }
 
 
-a img {
+a img.logo {
     position: absolute;
     width: 12.5%;
     z-index: 2;
@@ -83,12 +83,15 @@ img.pilot {
 
 
 .section_wrapper img {
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 0vw;
+    margin-right: 15vw;
 }
 
 
-
+section_wrapper figure {
+    width: 120%;
+    cursor: pointer;
+}
 
 
 
