@@ -184,7 +184,7 @@ img.pilot {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-column-gap: 25px;
+        grid-column-gap: 45px;
         grid-row-gap: -10px;
         margin-right: 15vw;
         margin-left: 15vw;
