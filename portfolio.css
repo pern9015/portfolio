@@ -89,7 +89,7 @@ img.pilot {
 
 
 section_wrapper figure {
-    width: 120%;
+    width: 100%;
     cursor: pointer;
 }
 
@@ -189,7 +189,7 @@ section_wrapper figure {
         grid-template-rows: 1fr 1fr 1fr;
         grid-column-gap: 45px;
         grid-row-gap: -10px;
-        margin-right: 15vw;
+        margin-right: 18vw;
         margin-left: 15vw;
     }
 
