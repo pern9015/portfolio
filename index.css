@@ -86,7 +86,7 @@ a.portfolio {
     background-color: orange;
     text-align: center;
     margin-left: 28vw;
-    margin-right: 25vw;
+    margin-right: 29vw;
     font-size: 18px;
     padding: 2vw 2vw;
     cursor: pointer;
@@ -101,13 +101,13 @@ a.portfolio:hover {
     color: orange;
     background-color: rgb(240, 231, 240);
     border: solid orange;
-    padding: 1.75vw 1.75vw;
+    padding: 1.5vw 1.5vw;
     margin-left: 27vw;
-    margin-right: 25vw;
+    margin-right: 29vw;
     font-size: 18px;
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 14vw;
+    margin-bottom: 15vw;
 }
 
 
