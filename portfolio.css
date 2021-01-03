@@ -1,7 +1,7 @@
 body {
     margin: 2vw;
     background-color: rgb(240, 231, 240);
-    outline: solid orange;
+    outline: solid #fca838;
     overflow-x: hidden;
     margin-top: 2vw;
 }
@@ -39,7 +39,7 @@ li {
 }
 
 a:link {
-    color: orange;
+    color: #fca838;
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
@@ -47,7 +47,7 @@ a:link {
 }
 
 a:visited {
-    color: orange;
+    color: #fca838;
 }
 
 a:hover:hover {
@@ -79,11 +79,6 @@ img.overskrift {
     margin-bottom: 2vw;
 }
 
-img.pilot {
-    margin-bottom: 3vw;
-}
-
-
 .section_wrapper img {
     margin-left: 0vw;
     margin-right: 15vw;
@@ -95,6 +90,22 @@ section_wrapper figure {
     cursor: pointer;
 }
 
+
+a img.tiltoppen {
+    width: 10%;
+    margin-left: 80vw;
+    cursor: pointer;
+}
+
+p {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    margin-left: 77vw;
+    margin-top: 0vw;
+
+
+}
 
 
 
@@ -151,15 +162,15 @@ section_wrapper figure {
     }
 
     a:link {
-        color: #f39200;
+        color: #fca838;
     }
 
     a.site1:link {
-        color: #f39200;
+        color: #fca838;
     }
 
     a:visited {
-        color: #f39200;
+        color: #fca838;
     }
 
     a.site1:visited {
@@ -198,5 +209,22 @@ section_wrapper figure {
     .section_wrapper img {
         margin-left: 0vw;
         margin-right: 0vw;
+    }
+
+    a img.tiltoppen {
+        width: 5%;
+        margin-left: 87vw;
+        cursor: pointer;
+    }
+
+    p {
+        color: #fca838;
+        font-family: lalezar;
+        text-transform: uppercase;
+        margin-left: 86vw;
+        margin-top: 0vw;
+        font-size: 20px;
+
+
     }
 }
