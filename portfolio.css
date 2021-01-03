@@ -108,6 +108,32 @@ p {
 }
 
 
+@media (max-width: 450px) {
+    body {
+        margin-right: 12vw;
+    }
+
+    #menu {
+        left: 66vw;
+    }
+
+    .section_wrapper img {
+        margin-right: 10vw;
+    }
+
+    img.overskrift {
+        margin-left: 13vw;
+    }
+
+    a img.tiltoppen {
+        margin-left: 72vw;
+    }
+
+    p {
+        margin-left: 68vw;
+    }
+}
+
 
 @media (min-width:1280px) {
     body {
