@@ -19,6 +19,7 @@ body {
     font-size: 30px;
     font-family: lalezar;
     color: #AC93CF;
+    cursor: pointer;
 }
 
 #menu {
@@ -30,6 +31,7 @@ body {
     list-style: none;
     top: 6vw;
     left: 70vw;
+    cursor: pointer;
 }
 
 li {

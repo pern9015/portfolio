@@ -19,6 +19,7 @@ body {
     font-size: 30px;
     font-family: lalezar;
     color: #AC93CF;
+    cursor: pointer;
 }
 
 #menu {
