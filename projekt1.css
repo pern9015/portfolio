@@ -1,0 +1,152 @@
+body {
+    margin: 2vw;
+    background-color: rgb(240, 231, 240);
+    outline: solid orange;
+    overflow-x: hidden;
+    margin-top: 2vw;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateX(100%);
+}
+
+#menuknap {
+    position: absolute;
+    display: inline-block;
+    top: 2vw;
+    left: 90vw;
+    font-size: 30px;
+    font-family: lalezar;
+    color: #AC93CF;
+}
+
+#menu {
+    position: absolute;
+    transform-origin: top right;
+    z-index: 2;
+    text-align: right;
+    transition: transform 0.3s;
+    list-style: none;
+    top: 6vw;
+    left: 70vw;
+}
+
+li {
+    padding-bottom: 3vw;
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+    font-family: lalezar;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+a:visited {
+    color: orange;
+}
+
+a:hover:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+
+a img {
+    position: absolute;
+    width: 12.5%;
+    z-index: 2;
+    top: 4vw;
+    left: 2vw;
+}
+
+
+a p.tilbageknap {
+    padding-top: 15vw;
+}
+
+
+@media (min-width:1280px) {
+    body {
+        margin: 2vw;
+        margin-top: -1vw;
+    }
+
+    #menuknap {
+        display: none;
+    }
+
+    #menu.hidden {
+        transform: translateX(0);
+        opacity: 1;
+    }
+
+    #menu {
+        background-color: none;
+        background: none;
+    }
+
+    nav {
+        margin-top: 4vw;
+    }
+
+    #menu {
+        flex-direction: row;
+        top: -1vw;
+        left: 60vw;
+
+    }
+
+    li {
+        float: left;
+    }
+
+
+    nav a {
+        font-size: 30px;
+        margin: 40px;
+        font-family: Acumin pro thin;
+        text-decoration: none;
+        text-align: center;
+        padding-left: 60px;
+        padding-bottom: 20px;
+        margin-top: 3vw;
+    }
+
+    a {
+        display: block;
+        padding-left: 0px;
+    }
+
+    a:link {
+        color: #f39200;
+    }
+
+    a.site2:link {
+        color: #f39200;
+    }
+
+    a:visited {
+        color: #f39200;
+    }
+
+    a.site2:visited {
+        color: black;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    a.site2:hover {
+        color: black;
+    }
+
+    a:active {
+        color: white;
+    }
