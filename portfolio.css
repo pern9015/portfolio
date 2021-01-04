@@ -150,10 +150,6 @@ p {
         opacity: 1;
     }
 
-    #menu {
-        background-color: none;
-        background: none;
-    }
 
     nav {
         margin-top: 4vw;
@@ -227,7 +223,7 @@ p {
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         grid-column-gap: 45px;
-        grid-row-gap: -10px;
+        grid-row-gap: 0px;
         margin-right: 18vw;
         margin-left: 15vw;
     }
