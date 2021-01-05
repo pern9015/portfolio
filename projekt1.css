@@ -142,6 +142,20 @@ p {
     width: 100%;
 }
 
+/*_________________________third_section________________________________*/
+#third_section {
+    margin: 5vw;
+}
+
+#third_section .col2 img {
+    width: 100%
+}
+
+
+/*_________________________fourth_section________________________________*/
+
+
+
 /*_________________________firefox-mobil________________________________*/
 @media (max-width:450px) {
     h2.overskrift {
@@ -309,4 +323,19 @@ p {
         margin-bottom: -1vw;
     }
 
+    /*_________________________third_section________________________________*/
+
+    #third_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #third_section .col1 h2 {
+        margin-top: 0vw;
+    }
+
+    #third_section .col2 img {
+        width: 90%;
+        margin-left: 4vw;
+    }
 }
