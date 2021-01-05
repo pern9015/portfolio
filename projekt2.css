@@ -279,10 +279,12 @@ p.tiltoppen {
     #first_section .section_wrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        margin-top: 5vw;
     }
 
     #first_section .col2 {
-        margin-top: -5vw;
+        margin-top: 0vw;
+        margin-bottom: 5vw;
     }
 
     p {
