@@ -155,7 +155,7 @@ p {
 #third_section img.tiltoppen {
     width: 10%;
     margin-left: 76vw;
-    margin-top: 567vw;
+    margin-top: 508vw;
 }
 
 p.tiltoppen {
@@ -180,6 +180,12 @@ p.tiltoppen {
     a p.tilbageknap {
         margin-top: 3vw;
         padding-top: 13vw;
+    }
+
+    #third_section img.tiltoppen {
+        width: 10%;
+        margin-left: 76vw;
+        margin-top: 567vw;
     }
 }
 
