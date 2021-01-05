@@ -1,11 +1,12 @@
 body {
     margin: 2vw;
     background-color: rgb(240, 231, 240);
-    outline: solid orange;
+    outline: solid #fca838;
     overflow-x: hidden;
     margin-top: 2vw;
 }
 
+/*_________________________burgermenu________________________________*/
 .hidden {
     opacity: 0;
     transform: translateX(100%);
@@ -38,7 +39,7 @@ li {
 }
 
 a:link {
-    color: orange;
+    color: #fca838;
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
@@ -46,7 +47,7 @@ a:link {
 }
 
 a:visited {
-    color: orange;
+    color: #fca838;
 }
 
 a:hover:hover {
@@ -57,7 +58,7 @@ a:active {
     color: black;
 }
 
-
+/*_________________________logo________________________________*/
 a img {
     position: absolute;
     width: 12.5%;
@@ -66,9 +67,10 @@ a img {
     left: 2vw;
 }
 
+/*_________________________tilbage-pil________________________________*/
 a img.tilbage_pil {
-    width: 8%;
-    margin-top: 12vw;
+    width: 6%;
+    margin-top: 11vw;
     margin-left: 2vw;
     cursor: pointer;
 }
@@ -77,17 +79,88 @@ a p.tilbageknap {
     color: #fca838;
     font-family: lalezar;
     text-transform: uppercase;
-    margin-left: 12vw;
+    margin-left: 9vw;
     cursor: pointer;
     margin-top: 0vw;
-    padding-top: 16vw;
+    padding-top: 14vw;
+    margin-bottom: -3vw;
+}
+
+/*_________________________overskrift________________________________*/
+h1 {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0vw;
+    padding-top: 0vw;
+    margin-bottom: -7vw;
+    margin-left: 4vw;
+}
+
+h2.overskrift {
+    font-family: lalezar;
+    text-transform: uppercase;
+    color: #AC93CF;
+    margin-top: -7vw;
+    text-align: center;
+    margin-left: 4vw;
+
+}
+
+/*_________________________first_section________________________________*/
+#first_section {
+    margin: 5vw;
+}
+
+h2 {
+    font-family:
+        'Open Sans',
+        sans-serif;
+}
+
+p {
+    text-justify: inter-word;
+}
+
+#first_section .col2 {
+    margin-top: -10vw;
+}
+
+/*_________________________second_section________________________________*/
+#second_section {
+    margin: 5vw;
+}
+
+#second_section h2 {
+    margin-top: -4vw;
+    margin-left: 4vw;
+}
+
+
+
+/*_________________________firefox-mobil________________________________*/
+@media (max-width:450px) {
+    h2.overskrift {
+        margin-bottom: 0vw;
+    }
+
+    a img.tilbage_pil {
+        margin-top: 11.5vw;
+    }
+
+    a p.tilbageknap {
+        margin-top: 3vw;
+        padding-top: 13vw;
+    }
 }
 
 
 
 
 
-
+/*_________________________desktop-version________________________________*/
 @media (min-width:1280px) {
     body {
         margin: 2vw;
@@ -165,7 +238,7 @@ a p.tilbageknap {
 
     a img.tilbage_pil {
         width: 4%;
-        margin-top: 15vw;
+        margin-top: 15.5vw;
         margin-left: 1vw;
         cursor: pointer;
     }
@@ -177,6 +250,43 @@ a p.tilbageknap {
         margin-left: 6vw;
         cursor: pointer;
         margin-top: 0vw;
-        padding-top: 13vw;
+        padding-top: 13.5vw;
         font-size: 22px;
+    }
+
+    h1 {
+        font-size: 120px;
+        margin-top: -16vw;
+        padding-top: 0vw;
+        margin-bottom: -7vw;
+        margin-left: 4vw;
+    }
+
+    h2.overskrift {
+        font-size: 50px;
+        margin-top: 2vw;
+        text-align: center;
+        margin-left: 4vw;
+        margin-bottom: 0vw;
+
+    }
+
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #first_section .col2 {
+        margin-top: -5vw;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    /*_________________________second_section________________________________*/
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }

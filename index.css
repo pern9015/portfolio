@@ -1,7 +1,7 @@
 body {
     margin: 2vw;
     background-color: rgb(240, 231, 240);
-    outline: solid orange;
+    outline: solid #fca838;
     overflow-x: hidden;
     margin-top: 2vw;
 }
@@ -38,7 +38,7 @@ li {
 }
 
 a:link {
-    color: orange;
+    color: #fca838;
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ a:link {
 }
 
 a:visited {
-    color: orange;
+    color: #fca838;
 }
 
 a:hover:hover {
@@ -84,7 +84,7 @@ h1 {
 
 a.portfolio {
     color: white;
-    background-color: orange;
+    background-color: #fca838;
     text-align: center;
     margin-left: 28vw;
     margin-right: 29vw;
@@ -99,9 +99,9 @@ a.portfolio {
 }
 
 a.portfolio:hover {
-    color: orange;
+    color: #fca838;
     background-color: rgb(240, 231, 240);
-    border: solid orange;
+    border: solid #fca838;
     padding: 1.5vw 1.5vw;
     margin-left: 27vw;
     margin-right: 29vw;
@@ -171,11 +171,11 @@ a.portfolio:hover {
     }
 
     a:link {
-        color: #f39200;
+        color: #fca838;
     }
 
     a:visited {
-        color: #f39200;
+        color: #fca838;
     }
 
     a:hover {
@@ -233,6 +233,6 @@ a.portfolio:hover {
         display: flex;
         margin-top: 3vw;
         margin-bottom: 0vw;
-        color: orange;
+        color: #fca838;
     }
 }
