@@ -134,11 +134,13 @@ p {
 }
 
 #second_section h2 {
-    margin-top: -4vw;
-    margin-left: 4vw;
+    margin-top: 0vw;
+    margin-left: 0vw;
 }
 
-
+#second_section img {
+    width: 100%;
+}
 
 /*_________________________firefox-mobil________________________________*/
 @media (max-width:450px) {
@@ -238,7 +240,7 @@ p {
 
     a img.tilbage_pil {
         width: 4%;
-        margin-top: 15.5vw;
+        margin-top: 19.5vw;
         margin-left: 1vw;
         cursor: pointer;
     }
@@ -250,13 +252,13 @@ p {
         margin-left: 6vw;
         cursor: pointer;
         margin-top: 0vw;
-        padding-top: 13.5vw;
+        padding-top: 17.5vw;
         font-size: 22px;
     }
 
     h1 {
         font-size: 120px;
-        margin-top: -16vw;
+        margin-top: -17vw;
         padding-top: 0vw;
         margin-bottom: -7vw;
         margin-left: 4vw;
@@ -288,5 +290,23 @@ p {
 
     #second_section .section_wrapper {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 50% 50%;
+        margin-top: -4vw;
     }
+
+    #second_section .col2 {
+        margin-left: 4vw;
+    }
+
+    #second_section h2 {
+        margin-top: -1vw;
+    }
+
+    #second_section .col2 img {
+        width: 50%;
+        margin-left: 10vw;
+        margin-top: -2vw;
+        margin-bottom: -1vw;
+    }
+
+}
