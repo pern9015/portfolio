@@ -83,6 +83,47 @@ a p.tilbageknap {
     padding-top: 16vw;
 }
 
+/*_________________________overskrift________________________________*/
+h1 {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    font-size: 60px;
+    text-align: center;
+    margin-top: -7vw;
+    padding-top: 0vw;
+    margin-bottom: -7vw;
+    margin-left: 4vw;
+}
+
+h2.overskrift {
+    font-family: lalezar;
+    text-transform: uppercase;
+    color: #AC93CF;
+    margin-top: -7vw;
+    text-align: center;
+    margin-left: 4vw;
+
+}
+
+/*_________________________first_section________________________________*/
+#first_section {
+    margin: 5vw;
+}
+
+h2 {
+    font-family:
+        'Open Sans',
+        sans-serif;
+}
+
+p {
+    text-justify: inter-word;
+}
+
+video {
+    width: 100%;
+}
 
 @media (min-width:1280px) {
     body {
@@ -158,3 +199,57 @@ a p.tilbageknap {
     a:active {
         color: white;
     }
+
+    a img.tilbage_pil {
+        width: 4%;
+        margin-top: 19.5vw;
+        margin-left: 1vw;
+        cursor: pointer;
+    }
+
+    a p.tilbageknap {
+        color: #fca838;
+        font-family: lalezar;
+        text-transform: uppercase;
+        margin-left: 6vw;
+        cursor: pointer;
+        margin-top: 0vw;
+        padding-top: 17.5vw;
+        font-size: 22px;
+    }
+
+    h1 {
+        font-size: 120px;
+        margin-top: -17vw;
+        padding-top: 0vw;
+        margin-bottom: -7vw;
+        margin-left: 4vw;
+    }
+
+    h2.overskrift {
+        font-size: 50px;
+        margin-top: 2vw;
+        text-align: center;
+        margin-left: 4vw;
+        margin-bottom: 0vw;
+
+    }
+
+    /*_________________________first_section________________________________*/
+    #first_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-top: 5vw;
+    }
+
+    #first_section .col2 {
+        margin-top: 2vw;
+        margin-left: 4vw;
+        margin-bottom: 5vw;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    /*_________________________second_section________________________________*/
