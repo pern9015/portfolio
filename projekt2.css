@@ -154,20 +154,6 @@ video {
     margin-bottom: 10vw;
 }
 
-#third_section img.tiltoppen {
-    width: 10%;
-    margin-left: 76vw;
-    margin-top: 508vw;
-}
-
-p.tiltoppen {
-    color: #fca838;
-    font-family: lalezar;
-    text-transform: uppercase;
-    margin-left: 68vw;
-    margin-top: 0vw;
-}
-
 /*_________________________fourth_section________________________________*/
 #fourth_section {
     margin: 5vw;
@@ -190,7 +176,7 @@ a img.tiltoppen {
     width: 10%;
     margin-left: 77vw;
     cursor: pointer;
-    margin-top: 733vw;
+    margin-top: 752vw;
 }
 
 
@@ -213,7 +199,7 @@ p.tiltoppen {
         width: 10%;
         margin-left: 77vw;
         cursor: pointer;
-        margin-top: 828vw;
+        margin-top: 855vw;
     }
 
     p.tiltoppen {
