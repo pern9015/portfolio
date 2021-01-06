@@ -170,6 +170,39 @@ video {
     margin: 5vw;
 }
 
+#fifth_section video {
+    margin-bottom: 10vw;
+}
+
+#fifth_section a img.tiltoppen {
+    width: 10%;
+    margin-left: 77vw;
+    cursor: pointer;
+    margin-top: 723vw;
+}
+
+p.tiltoppen {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    margin-left: 70vw;
+    margin-top: 0vw;
+    margin-bottom: -2vw;
+}
+
+@media (max-width:450px) {
+    #fifth_section a img.tiltoppen {
+        width: 10%;
+        margin-left: 77vw;
+        cursor: pointer;
+        margin-top: 800vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 68vw;
+    }
+}
+
 @media (min-width:1280px) {
     body {
         margin: 2vw;
@@ -366,5 +399,18 @@ video {
 
     #fifth_section .col1 {
         margin-top: -2vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 32vw;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+    }
+
+    #fifth_section a img.tiltoppen {
+        width: 4%;
+        margin-left: 85.5vw;
+        cursor: pointer;
+        margin-top: 203vw;
     }
 }
