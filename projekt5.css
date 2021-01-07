@@ -111,6 +111,67 @@ h2.overskrift {
     margin: 5vw;
 }
 
+h2 {
+    font-family:
+        'Open Sans',
+        sans-serif;
+}
+
+p {
+    text-justify: inter-word;
+}
+
+img {
+    width: 100%;
+
+}
+
+/*_________________________second_section________________________________*/
+#second_section {
+    margin: 5vw;
+}
+
+#second_section video {
+    margin-bottom: 0vw;
+    width: 100%
+}
+
+p {
+    margin-bottom: 10vw;
+}
+
+#second_section a img.tiltoppen {
+    width: 10%;
+    margin-left: 77vw;
+    cursor: pointer;
+    margin-top: 294vw;
+}
+
+p.tiltoppen {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    margin-left: 68vw;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+
+@media (max-width:450px) {
+    #second_section a img.tiltoppen {
+        width: 10%;
+        margin-left: 77vw;
+        cursor: pointer;
+        margin-top: 330vw;
+    }
+
+    p {
+        margin-bottom: 10vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 68vw;
+    }
+}
 
 @media (min-width:1280px) {
     body {
@@ -228,4 +289,54 @@ h2.overskrift {
         grid-template-columns: 1fr 1fr;
         margin-top: 5vw;
     }
+
+    #first_section .col2 {
+        margin-top: 1vw;
+        margin-left: 4vw;
+        margin-bottom: 0vw;
+    }
+
+    #first_section .col1 {
+        margin-bottom: -10vw;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    /*_________________________second_section________________________________*/
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #second_section .col2 {
+        margin-left: 4vw;
+        margin-top: -4vw;
+        margin-bottom: 0vw
+    }
+
+    #second_section .col1 {
+        margin-top: 0vw;
+        margin-bottom: -3vw
+    }
+
+    #second_section p {
+        margin-bottom: 0vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 32vw;
+        margin-top: 5vw;
+        margin-bottom: -10vw;
+    }
+
+    #second_section a img.tiltoppen {
+        width: 4%;
+        margin-left: 85.5vw;
+        cursor: pointer;
+        margin-top: 93vw;
+    }
+
+
 }
