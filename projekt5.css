@@ -90,7 +90,7 @@ h1 {
     text-transform: uppercase;
     font-size: 60px;
     text-align: center;
-    margin-top: -7vw;
+    margin-top: -15vw;
     padding-top: 0vw;
     margin-bottom: -7vw;
     margin-left: 4vw;
@@ -144,7 +144,7 @@ p {
     width: 10%;
     margin-left: 77vw;
     cursor: pointer;
-    margin-top: 294vw;
+    margin-top: 287vw;
 }
 
 p.tiltoppen {
@@ -161,7 +161,7 @@ p.tiltoppen {
         width: 10%;
         margin-left: 77vw;
         cursor: pointer;
-        margin-top: 330vw;
+        margin-top: 322vw;
     }
 
     p {
@@ -268,7 +268,7 @@ p.tiltoppen {
 
     h1 {
         font-size: 120px;
-        margin-top: -17vw;
+        margin-top: -27vw;
         padding-top: 0vw;
         margin-bottom: -7vw;
         margin-left: 4vw;
@@ -335,7 +335,7 @@ p.tiltoppen {
         width: 4%;
         margin-left: 85.5vw;
         cursor: pointer;
-        margin-top: 93vw;
+        margin-top: 83vw;
     }
 
 
