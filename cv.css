@@ -72,7 +72,126 @@ img.overskrift {
     margin-bottom: 4vw;
 }
 
+h2 {
+    font-family:
+        'Open Sans',
+        sans-serif;
+}
 
+p {
+    text-justify: inter-word;
+}
+
+/*_________________________second_section________________________________*/
+#second_section {
+    margin: 5vw;
+}
+
+#second_section h2 {
+    margin-top: 0vw;
+    margin-left: 0vw;
+    text-align: center;
+}
+
+#second_section .col1 img {
+    width: 100%;
+}
+
+
+#second_section .col2 img {
+    width: 73%;
+
+}
+
+#second_section .col2 p {
+    margin-top:
+}
+
+#second_section .row1 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#second_section .row2 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-top: 4vw;
+    margin-bottom: 20vw;
+}
+
+#second_section .col2 p.mail {
+    margin-left: -1vw;
+    margin-top: 2vw;
+    font-size: 18px;
+}
+
+#second_section .row2 img.phone {
+    margin-top: -3vw;
+}
+
+#second_section .col2 p.telefon {
+    margin-top: 1vw;
+    margin-left: -1vw;
+}
+
+/*_________________________third_section________________________________*/
+#third_section {
+    margin: 5vw;
+}
+
+h3 {
+    font-family: Poppins, Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+#third_section img {
+    width: 80%
+}
+
+
+#third_section .section_wrapper .row1 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    margin-bottom: 10vw;
+}
+
+#third_section .section_wrapper .row1 .col2 {
+    margin-left: 10vw;
+}
+
+#third_section .row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr%;
+    margin-bottom: 10vw;
+}
+
+#third_section .section_wrapper .row2 {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+#third_section .section_wrapper .row2 .col1 {
+    margin-top: 4vw;
+    margin-left: 2vw;
+    width: 100%
+}
+
+#third_section .section_wrapper .row2 .col2 {
+    margin-left: 10vw;
+}
+
+#third_section .section_wrapper .col2 .row1 .col1 {
+    margin-left: 0vw;
+    margin-top: 4vw;
+    width: 120%
+}
+
+#third_section .section_wrapper .col2 .row2 .col1 {
+    margin-left: 4vw;
+    margin-top: 0vw;
+    width: 70%;
+}
 
 
 
@@ -157,5 +276,99 @@ img.overskrift {
         margin-top: 8vw;
         width: 55%;
         margin-left: 23vw;
+        margin-bottom: 9vw;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    /*_________________________second_section________________________________*/
+
+    #second_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: -4vw;
+        margin-bottom: -10vw;
+    }
+
+    #second_section .col2 {
+        margin-top: 3vw;
+        margin-left: 4vw;
+    }
+
+    #second_section h2 {
+        margin-top: 2vw;
+        margin-left: 0vw;
+        text-align: left;
+    }
+
+    #second_section .col2 img {
+        width: 57%;
+    }
+
+    #second_section .row2 {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-top: 1vw;
+    }
+
+    #second_section .col2 p.mail {
+        margin-left: -2vw;
+        margin-top: 0.5vw;
+    }
+
+    #second_section .row2 img.phone {
+        margin-top: 0vw;
+    }
+
+    #second_section .col2 p.telefon {
+        margin-top: 1vw;
+        margin-left: -2vw;
+    }
+
+    /*_________________________third_section________________________________*/
+
+    #third_section .section_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-right: 5vw;
+    }
+
+    #third_section .section_wrapper .row1 {
+        display: grid;
+        grid-template-columns: 20% 80%;
+        margin-bottom: 6vw;
+
+    }
+
+    #third_section img {
+        width: 80%;
+        margin-left: 7vw;
+        margin-top: -1vw;
+    }
+
+    #third_section .section_wrapper .col2 .row1 .col1 {
+        margin-left: 0vw;
+        margin-top: 2vw;
+        width: 120%
+    }
+
+    #third_section .section_wrapper .row2 .col1 {
+        margin-top: 4vw;
+        margin-left: 0vw;
+        width: 100%;
+    }
+
+    #third_section .section_wrapper .row2 .col1 {
+        margin-top: 4vw;
+        margin-left: 0vw;
+        width: 100%;
+    }
+
+    #third_section .section_wrapper .col2 .row2 .col1 {
+        margin-left: 2vw;
+        margin-top: 0vw;
+        width: 70%;
     }
 }
