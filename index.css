@@ -66,13 +66,15 @@ a img {
 }
 
 .forsidetekst {
-    width: 90%;
-    margin-left: 6vw;
+    width: 93%;
+    margin-left: 4vw;
+    margin-top: -7vw;
 }
 
 .forsidebillede {
     width: 100%;
     margin-top: 20vw;
+    padding-left: -3vw;
 }
 
 h1 {
@@ -95,7 +97,7 @@ a.portfolio {
     font-family: 'Roboto', sans-serif;
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 15vw;
+    margin-bottom: 16vw;
 }
 
 a.portfolio:hover {
@@ -108,7 +110,7 @@ a.portfolio:hover {
     font-size: 18px;
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 15vw;
+    margin-bottom: 15.7vw;
 }
 
 
@@ -192,7 +194,7 @@ a.portfolio:hover {
     .forsidebillede {
         width: 40%;
         margin-top: 0vw;
-        margin-left: 30vw;
+        margin-left: 31vw;
         margin-bottom: 0vw;
     }
 
