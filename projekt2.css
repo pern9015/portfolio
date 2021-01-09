@@ -118,6 +118,9 @@ h2 {
 }
 
 p {
+    font-family:
+        'Open Sans',
+        sans-serif;
     text-justify: inter-word;
 }
 
@@ -176,7 +179,7 @@ a img.tiltoppen {
     width: 10%;
     margin-left: 77vw;
     cursor: pointer;
-    margin-top: 752vw;
+    margin-top: 868vw;
 }
 
 
@@ -199,7 +202,7 @@ p.tiltoppen {
         width: 10%;
         margin-left: 77vw;
         cursor: pointer;
-        margin-top: 855vw;
+        margin-top: 981vw;
     }
 
     p.tiltoppen {
@@ -330,7 +333,7 @@ p.tiltoppen {
     }
 
     p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*_________________________second_section________________________________*/

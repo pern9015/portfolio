@@ -118,7 +118,19 @@ h2 {
 }
 
 p {
+    font-family:
+        'Open Sans',
+        sans-serif;
     text-justify: inter-word;
+}
+
+a p.link {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+
 }
 
 video {
@@ -178,7 +190,7 @@ video {
     width: 10%;
     margin-left: 77vw;
     cursor: pointer;
-    margin-top: 723vw;
+    margin-top: 822vw;
 }
 
 p.tiltoppen {
@@ -195,7 +207,7 @@ p.tiltoppen {
         width: 10%;
         margin-left: 77vw;
         cursor: pointer;
-        margin-top: 800vw;
+        margin-top: 932vw;
     }
 
     p.tiltoppen {
@@ -327,7 +339,7 @@ p.tiltoppen {
     }
 
     p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     /*_________________________second_section________________________________*/
@@ -411,6 +423,6 @@ p.tiltoppen {
         width: 4%;
         margin-left: 85.5vw;
         cursor: pointer;
-        margin-top: 203vw;
+        margin-top: 205vw;
     }
 }
