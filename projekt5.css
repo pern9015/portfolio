@@ -34,7 +34,7 @@ body {
 }
 
 li {
-    padding-bottom: 3vw;
+    padding-bottom: 0vw;
 }
 
 a:link {
@@ -90,7 +90,7 @@ h1 {
     text-transform: uppercase;
     font-size: 60px;
     text-align: center;
-    margin-top: -15vw;
+    margin-top: -13vw;
     padding-top: 0vw;
     margin-bottom: -7vw;
     margin-left: 4vw;
@@ -209,13 +209,15 @@ p.tiltoppen {
 
     nav a {
         font-size: 30px;
-        margin: 40px;
+        margin: -10px;
+        margin-top: -10px;
+        margin-top: -10px;
         font-family: Acumin pro thin;
         text-decoration: none;
         text-align: center;
         padding-left: 60px;
         padding-bottom: 20px;
-        margin-top: 3vw;
+        margin-top: 0vw;
     }
 
     a {
@@ -253,7 +255,7 @@ p.tiltoppen {
 
     a img.tilbage_pil {
         width: 4%;
-        margin-top: 19.5vw;
+        margin-top: 16vw;
         margin-left: 1vw;
         cursor: pointer;
     }
@@ -338,7 +340,7 @@ p.tiltoppen {
         width: 4%;
         margin-left: 85.5vw;
         cursor: pointer;
-        margin-top: 83vw;
+        margin-top: 80vw;
     }
 
 

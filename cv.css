@@ -33,7 +33,7 @@ body {
 }
 
 li {
-    padding-bottom: 3vw;
+    padding-bottom: 0vw;
 }
 
 a:link {
@@ -66,10 +66,10 @@ a img {
 }
 
 img.overskrift {
-    margin-top: 20vw;
+    margin-top: 23vw;
     width: 85%;
     margin-left: 9vw;
-    margin-bottom: 4vw;
+    margin-bottom: 0vw;
 }
 
 h2 {
@@ -271,13 +271,15 @@ h3 {
 
     nav a {
         font-size: 30px;
-        margin: 40px;
+        margin: -10px;
+        margin-top: -10px;
+        margin-top: -10px;
         font-family: Acumin pro thin;
         text-decoration: none;
         text-align: center;
         padding-left: 60px;
         padding-bottom: 20px;
-        margin-top: 3vw;
+        margin-top: 0vw;
     }
 
     a {
@@ -286,15 +288,15 @@ h3 {
     }
 
     a:link {
-        color: #f39200;
+        color: #fca838;
     }
 
     a.site2:link {
-        color: #f39200;
+        color: #fca838;
     }
 
     a:visited {
-        color: #f39200;
+        color: #fca838;
     }
 
     a.site2:visited {

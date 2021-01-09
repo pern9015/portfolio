@@ -34,7 +34,7 @@ body {
 }
 
 li {
-    padding-bottom: 3vw;
+    padding-bottom: 0vw;
 }
 
 a:link {
@@ -156,13 +156,15 @@ a.portfolio:hover {
 
     nav a {
         font-size: 30px;
-        margin: 40px;
+        margin: -10px;
+        margin-top: -10px;
+        margin-top: -10px;
         font-family: Acumin pro thin;
         text-decoration: none;
         text-align: center;
         padding-left: 60px;
         padding-bottom: 20px;
-        margin-top: 3vw;
+        margin-top: 0vw;
     }
 
     a {
