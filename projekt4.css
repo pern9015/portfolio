@@ -1,7 +1,7 @@
 body {
     margin: 2vw;
     background-color: rgb(240, 231, 240);
-    outline: solid orange;
+    outline: solid #fca838;
     overflow-x: hidden;
     margin-top: 2vw;
 }
@@ -38,7 +38,7 @@ li {
 }
 
 a:link {
-    color: orange;
+    color: #fca838;
     text-decoration: none;
     font-family: lalezar;
     text-transform: uppercase;
@@ -46,7 +46,7 @@ a:link {
 }
 
 a:visited {
-    color: orange;
+    color: #fca838;
 }
 
 a:hover:hover {
