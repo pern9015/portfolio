@@ -22,16 +22,50 @@
             <div id="menuknap">☰</div>
             <ul id="menu" class="hidden">
                 <li> <a class="" href="portfolio.html">Portfolio</a> </li>
-                <li><a class="site2" href="cv.html">Om mig</a></li>
-                <li><a href="contact.html">kontakt</a></li>
+                <li><a href="cv.html">Om mig</a></li>
+                <li><a class="site3" href="contact.html">kontakt</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
         <section id="first_section" class="first_section">
-            <img class="overskrift" src="om_mig_overskrift.svg" alt="overskrift h1">
+            <img class="overskrift" src="kontakt.svg" alt="overskrift h1">
         </section>
+
+        <section id="second_section">
+            <section class="form_section">
+                <article>
+                    <h2>Skriv til mig her</h2>
+                    <p>Udfyld kontaktformularen for at kontakte mig. Jeg glæder mig til at høre fra jer.</p>
+                </article>
+
+                <form>
+                    <div class="felt">
+                        <label>
+                            E-mail
+                            <input type="email" name="navn">
+                        </label>
+                    </div>
+
+                    <div class="felt">
+                        <label>Navn
+                            <input type="text" name="navn">
+                        </label>
+                    </div>
+
+                    <div class="felt">
+                        <label>
+                            Besked
+                            <textarea name="besked" rows="5"></textarea>
+                        </label>
+                    </div>
+
+                    <button>Send</button>
+                </form>
+            </section>
+        </section>
+
     </main>
     <script src="script.js"></script>
 </body>

@@ -68,7 +68,7 @@ a img {
 img.overskrift {
     margin-top: 23vw;
     width: 85%;
-    margin-left: 9vw;
+    margin-left: 7vw;
     margin-bottom: 0vw;
 }
 
@@ -92,6 +92,40 @@ ul {
 }
 
 
+
+#second_section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1.5rem;
+}
+
+.form_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    padding: 1.5rem;
+    background: rgba(172, 147, 207, 0.62);
+    color: #fff;
+    border-radius: 10px;
+    margin-bottom: 35vw;
+}
+
+article {
+    padding-right: 2vw;
+    border-right: 2px solid orange;
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+}
+
+.felt {
+    margin-bottom: 1rem;
+}
 
 
 @media (min-width:1280px) {
@@ -147,7 +181,7 @@ ul {
         color: #fca838;
     }
 
-    a.site2:link {
+    a.site3:link {
         color: #fca838;
     }
 
@@ -155,7 +189,7 @@ ul {
         color: #fca838;
     }
 
-    a.site2:visited {
+    a.site3:visited {
         color: black;
     }
 
@@ -163,7 +197,7 @@ ul {
         color: black;
     }
 
-    a.site2:hover {
+    a.site3:hover {
         color: black;
     }
 
@@ -177,9 +211,15 @@ ul {
         margin-top: 8vw;
         width: 55%;
         margin-left: 23vw;
-        margin-bottom: 9vw;
+        margin-bottom: 4vw;
     }
 
     p {
         font-size: 18px;
     }
+
+    .form_section {
+        margin-bottom: 4vw;
+    }
+
+}
