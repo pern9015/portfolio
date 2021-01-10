@@ -254,6 +254,12 @@ p.tiltoppen {
 }
 
 @media (max-width:450px) {
+
+    #fourth_section img {
+        width: 100%;
+        margin-top: 18vw;
+    }
+
     #fifth_section a img.tiltoppen {
         width: 10%;
         margin-left: 80vw;
