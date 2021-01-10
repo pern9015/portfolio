@@ -97,7 +97,7 @@ a.portfolio {
     font-family: 'Roboto', sans-serif;
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 16vw;
+    margin-bottom: 7vw;
 }
 
 a.portfolio:hover {
@@ -110,11 +110,19 @@ a.portfolio:hover {
     font-size: 18px;
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 15.7vw;
+    margin-bottom: 6.7vw;
 }
 
 
+@media (max-width:450px) {
+    a.portfolio {
+        margin-bottom: 16vw;
+    }
 
+    a.portfolio:hover {
+        margin-bottom: 15.7vw;
+    }
+}
 
 
 
