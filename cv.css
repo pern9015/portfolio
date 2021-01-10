@@ -210,7 +210,7 @@ h3 {
 }
 
 #fourth_section .col3 h2 {
-    text-align: center;
+    text-align: left;
 }
 
 #fourth_section img {
@@ -235,6 +235,36 @@ h3 {
     margin-bottom: 7vw;
 }
 
+
+
+#fifth_section a img.tiltoppen {
+    width: 10%;
+    margin-left: 77vw;
+    cursor: pointer;
+    margin-top: 732vw;
+}
+
+p.tiltoppen {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    margin-left: 74vw;
+    margin-top: 12vw;
+    margin-bottom: 0vw;
+}
+
+@media (max-width:450px) {
+    #fifth_section a img.tiltoppen {
+        width: 10%;
+        margin-left: 80vw;
+        cursor: pointer;
+        margin-top: 805vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 76vw;
+    }
+}
 
 
 
@@ -477,5 +507,18 @@ h3 {
     #fourth_section .row4 {
         display: grid;
         grid-template-columns: 50% 50%;
+    }
+
+    p.tiltoppen {
+        margin-left: 88vw;
+        margin-top: -3vw;
+        margin-bottom: 0vw;
+    }
+
+    #fifth_section a img.tiltoppen {
+        width: 4%;
+        margin-left: 89vw;
+        cursor: pointer;
+        margin-top: 160vw;
     }
 }
