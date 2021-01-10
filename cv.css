@@ -33,7 +33,7 @@ body {
 }
 
 li {
-    padding-bottom: 0vw;
+    padding-bottom: 1vw;
 }
 
 a:link {
@@ -235,13 +235,16 @@ h3 {
     margin-bottom: 7vw;
 }
 
-
+ul {
+    list-style: none;
+    display: grid;
+}
 
 #fifth_section a img.tiltoppen {
     width: 10%;
     margin-left: 77vw;
     cursor: pointer;
-    margin-top: 732vw;
+    margin-top: 699vw;
 }
 
 p.tiltoppen {
@@ -264,7 +267,7 @@ p.tiltoppen {
         width: 10%;
         margin-left: 80vw;
         cursor: pointer;
-        margin-top: 805vw;
+        margin-top: 767vw;
     }
 
     p.tiltoppen {
