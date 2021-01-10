@@ -193,7 +193,7 @@ a.portfolio:hover {
 
     .forsidebillede {
         width: 40%;
-        margin-top: 0vw;
+        margin-top: 2vw;
         margin-left: 31vw;
         margin-bottom: 0vw;
     }
@@ -209,7 +209,7 @@ a.portfolio:hover {
 
         font-size: 40px;
         text-align: center;
-        margin-top: 5vw;
+        margin-top: 2vw;
     }
 
     a.portfolio {
@@ -221,8 +221,8 @@ a.portfolio:hover {
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
         display: flex;
-        margin-top: 3vw;
-        margin-bottom: 0vw;
+        margin-top: -1vw;
+        margin-bottom: 2vw;
         color: white;
     }
 
@@ -235,8 +235,8 @@ a.portfolio:hover {
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
         display: flex;
-        margin-top: 3vw;
-        margin-bottom: 0vw;
+        margin-top: -1vw;
+        margin-bottom: 2.12vw;
         color: #fca838;
     }
 }
