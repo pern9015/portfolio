@@ -108,7 +108,7 @@ ul {
     background: rgba(172, 147, 207, 0.62);
     color: #fff;
     border-radius: 10px;
-    margin-bottom: 35vw;
+    margin-bottom: 36vw;
 }
 
 article {
@@ -127,7 +127,34 @@ button {
     margin-bottom: 1rem;
 }
 
+@media (max-width:375px) {
+    article {
+        padding-right: 0vw;
+        border-right: 2px solid #fca838;
+        margin-left: -5vw;
+        font-size: 12px;
+    }
 
+    .form_section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        align-items: start;
+        padding: 1.5rem;
+        background: rgba(172, 147, 207, 0.62);
+        color: #fff;
+        border-radius: 10px;
+        margin-bottom: 35vw;
+    }
+
+    #menu {
+        left: 65vw;
+    }
+
+    img.overskrift {
+        margin-top: 27vw;
+    }
+}
 
 @media (min-width:1280px) {
     body {

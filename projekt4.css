@@ -215,6 +215,34 @@ p.tiltoppen {
     }
 }
 
+@media (max-width:375px) {
+    h1 {
+        font-size: 53px;
+        margin-top: -5vw;
+        padding-top: 0vw;
+        margin-bottom: -7vw;
+        margin-left: 2vw;
+    }
+
+    h2.overskrift {
+        margin-top: -7vw;
+        margin-left: 4vw;
+        font-size: 21px;
+    }
+
+    #menu {
+        left: 65vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 65vw;
+    }
+
+    #fifth_section a img.tiltoppen {
+        margin-top: 1126vw;
+    }
+}
+
 @media (min-width:1280px) {
     body {
         margin: 2vw;

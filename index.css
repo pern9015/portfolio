@@ -29,7 +29,7 @@ body {
     text-align: right;
     transition: transform 0.3s;
     list-style: none;
-    top: 10vw;
+    top: 6vw;
     left: 70vw;
 }
 
@@ -125,11 +125,12 @@ a.portfolio:hover {
 }
 
 
+@media (max-width:375px) {
 
-
-
-
-
+    #menu {
+        left: 65vw;
+    }
+}
 
 
 

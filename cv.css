@@ -257,6 +257,10 @@ p.tiltoppen {
 
 @media (max-width:450px) {
 
+    img.overskrift {
+        margin-top: 26vw;
+    }
+
     #fourth_section img {
         width: 100%;
         margin-top: 18vw;
@@ -271,6 +275,27 @@ p.tiltoppen {
 
     p.tiltoppen {
         margin-left: 76vw;
+    }
+}
+
+
+
+
+@media (max-width:375px) {
+    #menu {
+        left: 65vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 74vw;
+    }
+
+    #sixth_section a img.tiltoppen {
+        margin-top: 935vw;
+    }
+
+    img.overskrift {
+        margin-top: 29vw;
     }
 }
 

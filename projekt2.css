@@ -210,6 +210,24 @@ p.tiltoppen {
     }
 }
 
+@media (max-width: 375px) {
+
+    #menu {
+        left: 66vw;
+    }
+
+    h1 {
+        margin-top: -6vw;
+    }
+
+    a img.tiltoppen {
+        margin-top: 1198vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 65vw;
+    }
+}
 
 @media (min-width:1280px) {
     body {

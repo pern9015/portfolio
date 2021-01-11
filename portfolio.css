@@ -105,13 +105,15 @@ p {
     margin-top: 0vw;
 }
 
+
+
 @media (max-width: 450px) {
     body {
         margin-right: 12vw;
     }
 
     #menu {
-        left: 66vw;
+        left: 70vw;
     }
 
     .section_wrapper img {
@@ -131,6 +133,48 @@ p {
     }
 }
 
+
+@media (max-width: 375px) {
+    body {
+        margin-right: 2vw;
+    }
+
+    #menuknap {
+        position: absolute;
+        display: inline-block;
+        top: 2vw;
+        left: 89vw;
+    }
+
+    #menu {
+        position: absolute;
+        transform-origin: top right;
+        z-index: 2;
+        text-align: right;
+        transition: transform 0.3s;
+        list-style: none;
+        top: 6vw;
+        left: 65vw;
+    }
+
+    img.overskrift {
+        margin-top: 26vw;
+    }
+
+    .section_wrapper img {
+        width: 85%;
+        margin-right: 0vw;
+        margin-left: -4vw;
+    }
+
+    a img.tiltoppen {
+        margin-left: 78vw;
+    }
+
+    p {
+        margin-left: 72vw;
+    }
+}
 
 @media (min-width:1280px) {
     body {

@@ -192,7 +192,26 @@ p.tiltoppen {
     }
 }
 
+@media (max-width: 375px) {
 
+    #menu {
+        left: 66vw;
+    }
+
+    h1 {
+        padding-top: 3vw;
+    }
+
+    #third_section img.tiltoppen {
+        width: 10%;
+        margin-left: 76vw;
+        margin-top: 740vw;
+    }
+
+    p.tiltoppen {
+        margin-left: 65vw;
+    }
+}
 
 
 
