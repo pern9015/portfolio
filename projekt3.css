@@ -6,6 +6,12 @@ body {
     margin-top: 2vw;
 }
 
+footer {
+    margin-top: -9vw;
+    margin-left: 1vw;
+    color: #AC93CF;
+}
+
 .hidden {
     opacity: 0;
     transform: translateX(100%);
@@ -442,8 +448,8 @@ p.tiltoppen {
     }
 
     p.tiltoppen {
-        margin-left: 27vw;
-        margin-top: 0vw;
+        margin-left: 28vw;
+        margin-top: -1vw;
         margin-bottom: 0vw;
     }
 
@@ -451,6 +457,13 @@ p.tiltoppen {
         width: 4%;
         margin-left: 85.5vw;
         cursor: pointer;
-        margin-top: 208vw;
+        margin-top: 206vw;
+    }
+
+    footer {
+        margin-top: -7vw;
+        margin-left: 1vw;
+        color: #AC93CF;
+        font-size: 20px;
     }
 }

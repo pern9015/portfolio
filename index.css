@@ -6,6 +6,13 @@ body {
     margin-top: 2vw;
 }
 
+footer {
+    margin-top: 0vw;
+    margin-left: 1vw;
+    color: #AC93CF;
+}
+
+
 .hidden {
     opacity: 0;
     transform: translateX(100%);
@@ -97,7 +104,7 @@ a.portfolio {
     font-family: 'Roboto', sans-serif;
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 7vw;
+    margin-bottom: 4vw;
 }
 
 a.portfolio:hover {
@@ -110,17 +117,17 @@ a.portfolio:hover {
     font-size: 18px;
     display: flex;
     margin-top: 5vw;
-    margin-bottom: 6.7vw;
+    margin-bottom: 3.7vw;
 }
 
 
 @media (max-width:450px) {
     a.portfolio {
-        margin-bottom: 16vw;
+        margin-bottom: 13vw;
     }
 
     a.portfolio:hover {
-        margin-bottom: 15.7vw;
+        margin-bottom: 12.7vw;
     }
 }
 
@@ -247,5 +254,12 @@ a.portfolio:hover {
         margin-top: -1vw;
         margin-bottom: 2.12vw;
         color: #fca838;
+    }
+
+    footer {
+        margin-top: 0vw;
+        margin-left: 1vw;
+        color: #AC93CF;
+        font-size: 20px;
     }
 }

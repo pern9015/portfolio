@@ -6,6 +6,12 @@ body {
     margin-top: 2vw;
 }
 
+footer {
+    margin-top: -8vw;
+    margin-left: 1vw;
+    color: #AC93CF;
+}
+
 .hidden {
     opacity: 0;
     transform: translateX(100%);
@@ -289,7 +295,13 @@ p {
         margin-left: 86vw;
         margin-top: 0vw;
         font-size: 20px;
+    }
+
+    footer {
+        margin-top: -3vw;
+        margin-left: 1vw;
+        color: #AC93CF;
+        font-size: 20px;
 
 
     }
-}

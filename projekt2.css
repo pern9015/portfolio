@@ -6,6 +6,13 @@ body {
     margin-top: 2vw;
 }
 
+footer {
+    margin-top: -14vw;
+    margin-left: 1vw;
+    color: #AC93CF;
+}
+
+
 .hidden {
     opacity: 0;
     transform: translateX(100%);
@@ -453,13 +460,20 @@ p.tiltoppen {
 
     p.tiltoppen {
         margin-left: 32vw;
-        margin-top: -4vw;
+        margin-top: 0vw;
     }
 
     a img.tiltoppen {
         width: 4%;
         margin-left: 85.5vw;
         cursor: pointer;
-        margin-top: 204vw;
+        margin-top: 208.5vw;
+    }
+
+    footer {
+        margin-top: -6vw;
+        margin-left: 1vw;
+        color: #AC93CF;
+        font-size: 20px;
     }
 }

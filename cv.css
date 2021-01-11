@@ -6,6 +6,13 @@ body {
     margin-top: 2vw;
 }
 
+footer {
+    margin-top: -4vw;
+    margin-left: 1vw;
+    color: #AC93CF;
+}
+
+
 .hidden {
     opacity: 0;
     transform: translateX(100%);
@@ -562,5 +569,12 @@ p.tiltoppen {
         text-align: center;
         margin-top: -6vw;
         margin-bottom: 7vw;
+    }
+
+    footer {
+        margin-top: -2vw;
+        margin-left: 1vw;
+        color: #AC93CF;
+        font-size: 20px;
     }
 }
