@@ -157,6 +157,13 @@ video {
     width: 100%;
 }
 
+a p.temadokumentation {
+    color: #fca838;
+    font-family: lalezar;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 18px;
+}
 
 /*_________________________third_section________________________________*/
 #third_section {
@@ -390,6 +397,7 @@ p.tiltoppen {
         margin-top: 1vw;
     }
 
+
     /*_________________________third_section________________________________*/
 
     #third_section .section_wrapper {
@@ -459,7 +467,7 @@ p.tiltoppen {
         width: 4%;
         margin-left: 85.5vw;
         cursor: pointer;
-        margin-top: 198vw;
+        margin-top: 200vw;
     }
 
     footer {
