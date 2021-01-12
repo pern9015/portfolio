@@ -142,7 +142,7 @@ p {
 
 @media (max-width: 375px) {
     body {
-        margin-right: 2vw;
+        margin-right: 13vw;
     }
 
     #menuknap {
@@ -170,15 +170,15 @@ p {
     .section_wrapper img {
         width: 85%;
         margin-right: 0vw;
-        margin-left: -4vw;
+        margin-left: 0vw;
     }
 
     a img.tiltoppen {
-        margin-left: 78vw;
+        margin-left: 70vw;
     }
 
     p {
-        margin-left: 72vw;
+        margin-left: 64vw;
     }
 }
 
